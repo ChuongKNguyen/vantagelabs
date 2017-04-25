@@ -307,6 +307,10 @@ fieldset[disabled] .btn-vantage.active {
 	margin-right: 0px;
 	margin-left: 0px;
 }
+
+.btn {
+	text-align: left;
+}
 .btn-lg {
 	
 	padding-bottom: 10px;
@@ -327,6 +331,9 @@ fieldset[disabled] .btn-vantage.active {
 	bottom: -1px;
 }
 
+.btn-group {
+	margin-left: 20px;
+}
 .btn-group-vertical {
   min-height: 20px;
   background-color: white;

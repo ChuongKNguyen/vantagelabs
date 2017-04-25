@@ -27,7 +27,7 @@ function registerComposeButtonEvent() {
         var tabId = "Ticket" + composeCount; //this is id on tab content div where the 
         composeCount = composeCount + 1; //increment compose count
 
-        $('.nav-tabs').append('<li><a href="#' + tabId + '"><button class="close closeTab" type="button" >×</button>Ticket ' + composeCount + '</a></li>');
+        $('.tab-vantage').append('<li><a href="#' + tabId + '"><button class="close closeTab" type="button" >×</button>Ticket ' + composeCount + '</a></li>');
         $('.tab-content').append('<div class="tab-pane" id="' + tabId + '"></div>');
 
         craeteNewTabAndLoadUrl("", "./SamplePage.html", "#" + tabId);

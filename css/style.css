@@ -26,6 +26,7 @@ hr {
 	font-size: 16px !important;
 	color: #04a18f !important;
 }
+
 }
 .faq {
 	font-size: 12px;
@@ -58,7 +59,14 @@ h4 {
 	padding: 30px 20px 30px 20px;
 	background-color: white;
 }
+.nav-tabs > li {
+	background-color: rgba(80, 142, 135, 0.61) !important; 
+	
+}
 
+.tab-vantage > li > a {
+  color: #037669 !important;
+}
 .nav-tabs > li .close {
 	margin: -2px 0 0 10px;
 	font-size: 18px;
@@ -68,7 +76,7 @@ h4 {
 .nav-tabs > li .add {
 	margin: -2px 0 0 10px;
 	font-size: 18px;
-
+	background-color: #037669 !important; 
 }
 
 /********************************************************************/
@@ -280,6 +288,7 @@ fieldset[disabled] .btn-vantage.active {
   right: 0;
   padding: 8px 27px;
 }
+
 
 /********************************************************************/
 /*** TABLE ***/

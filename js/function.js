@@ -1,6 +1,8 @@
 var currentTab;
 var composeCount = 0;
 //initilize tabs
+
+
 $(function () {
 
     //when ever any tab is clicked this method will be call

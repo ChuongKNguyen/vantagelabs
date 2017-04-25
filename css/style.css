@@ -65,7 +65,7 @@ h4 {
 
 }
 
-.nav-tabs > li .create {
+.nav-tabs > li .add {
 	margin: -2px 0 0 10px;
 	font-size: 18px;
 
@@ -329,4 +329,32 @@ fieldset[disabled] .btn-vantage.active {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+/********************************************************************/
+/*** Add button ***/
+.add {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+.add:hover,
+.add:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+button.add {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
 }

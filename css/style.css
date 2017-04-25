@@ -315,7 +315,7 @@ fieldset[disabled] .btn-vantage.active {
 	background-color: transparent;
 	width: 150px;
 	border-color: white;
-	font-size: 14px;
+	font-size: 14px !important;
 }
 .hr-button:after {
 	content: '';
